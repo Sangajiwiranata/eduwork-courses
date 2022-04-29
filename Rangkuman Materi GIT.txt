@@ -1,0 +1,40 @@
+	*** Rangkuman Materi GIT ***
+
+- Git adalah VCS (Version Control System) yang dibuat oleh Linux Torvalds
+- Git berfungsi untuk merecord Perubahan Data atau Source Code
+	
+# Manfaat Git
+- Menyimpan Seluruh Source Code
+- Mempermudah dalam Berkolaborasi dengan Developer Lain
+- Dapat berkontribusi dalam Project Open Source
+- Tracking Perubahan Data ataupun Source Code
+- Depeloy yang Modern
+
+#Tool yang dibutuhkan untuk Menggunakan Git
+- Software Git
+- Akun Github/Gitlab
+- Courcetree (Git GUI)
+- Text Editor ( VsCode, Sublime Text, Atom)
+
+# Fundamental Git
+- git Init : Untuk menginisialisasi Repository/Repo
+- git Config Untuk Mengconfigurasi Akun Dalam Git
+	Untuk configurasi Global
+  -git config --global user.name "nama_akun"
+  -git config --global user.email "nama_email@gmail.com"
+	Untuk Configurasi Lokal Tinggal merubah --global ke --Lokal
+
+- git status : untuk mengecek status dalam git
+- git add : untuk menambahkan file ke staging Area
+   - git add name_file / git add . (untuk menambahkan semua perubahan)
+- git commit : untuk menerapkan file yang ditambahkan / dirubah
+   - git commit -m "massage"
+- git branch : untuk melihat akun branch
+   -  git branch --list : untuk menampilkan branch list di sebuah git
+   -  git branch name_branch untuk membuat branch
+   - git branch -d name_branch untuk menghapus branch
+   - git checkout name_branch untuk berganti branch
+- git push untuk melakukan uplod ke github/gitlab yang telah terhubung
+- git pull untuk melakaukan download dari github/gitlab yang telah terhubung
+
+ 
