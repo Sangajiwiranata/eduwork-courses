@@ -20,6 +20,7 @@
     position: absolute;
     top: 35%;
     left: 50%;
+    text-align: center;
     transform: translateX(-50%);
     color: black;
     font-size: 40px;
@@ -28,6 +29,7 @@
 }
 
 .hero h2 {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 45%;
@@ -72,6 +74,7 @@
     text-align: center;
     margin-bottom: 5px;
     padding: 0 20px;
+    font-size: 13px;
 }
 table td{
     padding: 0 20px;
@@ -80,13 +83,71 @@ table td{
 .education{
     display: flex;
     margin: auto;
-    width: 90%;
+    margin-bottom: 50px;
+    width: 80%;
+    align-content: center;
 }
 .education h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
     text-align: center;
     padding-bottom: 5px;
+    font-size: 20px;
 }
 
 .education .kolom{
-    margin: 10px;
+    margin: 10px auto;
+
+}
+
+.education .kolom th{
+    font-size: 16px;
+    padding: 5px;
+    background-color: cornflowerblue;
+}
+
+.education .kolom td{
+    font-size: 13px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+.contactme form {
+    width: 40%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+input[type="text"],select, textarea{
+    margin: 0 auto;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 13px;
+    resize: vertical;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="button"]{
+    width: 100%;
+    padding: 5px 10px;
+    align-content: center;
+    margin-bottom: 40px;
+    color: black;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    background-color:cadetblue;
+}
+footer p{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    line-height: 60px;
 }
